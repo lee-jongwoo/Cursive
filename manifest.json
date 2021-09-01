@@ -3,10 +3,9 @@
 
   "name": "𝓒𝓤𝓡𝓢𝓘𝓥𝓔",
   "short_name": "CURSIVE",
-  "version": "1.0",
+  "version": "1.1",
   "description": "멋진 영어 필기체가 쓰고싶을 때!",
   "author": "Jongwoo Lee",
-  "offline_enabled": true,
 
   "permissions": [
     "clipboardWrite"
