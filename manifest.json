@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "𝓒𝓤𝓡𝓢𝓘𝓥𝓔",
+  "short_name": "CURSIVE",
+  "version": "1.0",
+  "description": "멋진 영어 필기체가 쓰고싶을 때!",
+  "author": "Jongwoo Lee",
+  "offline_enabled": true,
+
+  "permissions": [
+    "clipboardWrite"
+  ],
+
+  "sidebar_action": {
+    "default_icon": "Images/icon_sidebar.png",
+    "default_page": "HTML/popup.html",
+    "default_title": "CURSIVE",
+    "use_navigation_bar": false
+  },
+
+  "icons": {
+    "16": "Images/icon_16.png",
+    "32": "Images/icon_32.png",
+    "128": "Images/icon_128.png"
+  }
+}
