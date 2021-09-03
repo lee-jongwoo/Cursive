@@ -43,7 +43,7 @@ document.getElementById("start_button").addEventListener("click", function () {
     document.getElementsByClassName("effect")[0].classList.add("open");
     document.querySelectorAll(".clipboard").forEach(btn => {
         btn.addEventListener("click", function (evt) {
-            copy(evt.target.dataset.copy);
+            copy(evt.currentTarget.dataset.copy);
         })
     })
 })
